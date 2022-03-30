@@ -27,19 +27,19 @@ const TimeCard = () => {
                 <Grid container  spacing={0.5}>
                     <Grid item  xs={3} sx={{textAlign:"center"}}>
                         <Typography >
-                            75<br />
+                            56<br />
                             Days
                         </Typography>
                     </Grid>
                     <Grid item  xs={3} className={classes.container}>
                         <Typography >
-                            75<br />
+                            87<br />
                             Hours
                         </Typography>
                     </Grid>
                     <Grid item  xs={3} className={classes.container}>
                         <Typography >
-                           75
+                           25
                            
                         </Typography>
                         <Typography>
