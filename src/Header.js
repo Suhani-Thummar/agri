@@ -9,6 +9,13 @@ export default function Header(props) {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/vendorpage">vendor card</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/list">List</a>
+          </li>
           <li class="nav-item">
               <a class="nav-link" href="/timer">Timer</a>
             </li>

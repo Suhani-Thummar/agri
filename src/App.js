@@ -16,6 +16,8 @@ import Slider from './components/Slider';
 import Timer from './components/Timers';
 import CardDes from './components/CardDes';
 import TimeCard from './components/TimeCard';
+import VendorCard from './VendorCard';
+import {List} from './List.js'
 
 export default class App extends Component {
   render() {
@@ -27,8 +29,14 @@ export default class App extends Component {
           <Route exact path="/timeCard" >
               <TimeCard />
             </Route>
+            <Route exact path="/vendorpage" >
+              <VendorCard />
+            </Route>
             <Route exact path="/Timer" >
               <Timer />
+            </Route>
+            <Route exact path="/list" >
+              <List/>
             </Route>
             <Route exact path="/displaycart">
               <DisplayCart />
