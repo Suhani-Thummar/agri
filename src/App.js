@@ -12,12 +12,16 @@ import { Checkout } from './components/Checkout';
 import Header from './Header';
 import About from './components/About';
 import ContectUs from './components/ContectUs';
+import {Cards} from './components/Cards';
 import Slider from './components/Slider';
 import Timer from './components/Timers';
 import CardDes from './components/CardDes';
 import TimeCard from './components/TimeCard';
 import VendorCard from './VendorCard';
 import {List} from './List.js'
+import { ProductDetail } from './ProductDetail';
+import { VendorDetails } from './VendorDetails';
+import {SuccessOrder} from './SuccessOrder';
 
 export default class App extends Component {
   render() {
@@ -31,6 +35,18 @@ export default class App extends Component {
             </Route>
             <Route exact path="/vendorpage" >
               <VendorCard />
+            </Route>
+            <Route exact path="/cards" >
+              <Cards />
+            </Route>
+            <Route exact path="/productdetails" >
+              <ProductDetail />
+            </Route>
+            <Route exact path="/vendordetails" >
+              <VendorDetails />
+            </Route>
+            <Route exact path="/cardDes" >
+              <CardDes />
             </Route>
             <Route exact path="/Timer" >
               <Timer />
@@ -53,14 +69,14 @@ export default class App extends Component {
             <Route exact path="/Search">
               <Search1 />
             </Route>
+            <Route exact path="/successorder" >
+              <SuccessOrder />
+            </Route>
             <Route exact path="/cart">
               <Cart />
             </Route>
             <Route exact path="/Slider">
               <Slider />
-            </Route>
-            <Route exact path="/cardDes">
-              <CardDes />
             </Route>
             <Route exact path="/city">
               <Cityname />

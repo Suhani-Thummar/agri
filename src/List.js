@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import { BsFillCartFill, BsPlus, BsFillBagFill } from 'react-icons/bs';
 import Button from '@mui/material/Button';
 import { Chart } from 'react-google-charts';
-import Grid from '@mui/material/Grid';
+
 
 export const List = () => {
   function getLastWeeksDate() {
@@ -132,7 +132,6 @@ export const List = () => {
             <Typography  >0</Typography>
           </Box>
         </Box>
-
       </Box>
     </div>
   )

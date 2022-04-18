@@ -14,6 +14,15 @@ export default function Header(props) {
               <a class="nav-link" href="/vendorpage">vendor card</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/cards">Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productdetails">Product Detail</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/vendordetails">Vendor Detail</a>
+            </li>
+            <li class="nav-item">
             <a class="nav-link" href="/list">List</a>
           </li>
           <li class="nav-item">
@@ -31,12 +40,15 @@ export default function Header(props) {
             <li class="nav-item">
               <a class="nav-link" href="/About us">About us</a>
             </li>
-            <li class="nav-item">
+            {/*<li class="nav-item">
               <a class="nav-link" href="/contect us">Contect us</a>
-            </li>
+  </li>*/}
             <li class="nav-item">
-              <a class="nav-link" href="/cardDes">Card Des</a>
+              <a class="nav-link" href="/successorder">Success Order</a>
             </li>
+            {/*<li class="nav-item">
+              <a class="nav-link" href="/cardDes">Card Des</a>
+  </li>*/}
             <li class="nav-item">
               <a class="nav-link" href="/Search">city search</a>
             </li>
